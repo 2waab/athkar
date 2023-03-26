@@ -1,0 +1,59 @@
+/* Google Fonst - IBM Plex Sans Arabic */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+:root {
+    --main-color: #1b5299;
+    --second-color: #9fc2cc;
+    --white-color: #fff;
+    --black-color: #000;
+    --gray-color: #999;
+    --btn-border-radius: 999999px;
+    --main-transition: all 300ms ease;
+}
+a {
+    text-decoration: none;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--second-color);
+}
+.content {
+    width: 500px;
+    text-align: center;
+}
+.content h1 {
+    font-size: 60px;
+    color: var(--main-color);
+}
+.content i {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: var(--black-color);
+}
+.content p {
+    font-size: 22px;
+    color: var(--black-color);
+    margin-top: 20px;
+}
+.btn {
+    padding: 5px 70px;
+    margin-top: 20px;
+    background-color: var(--black-color);
+    border: none;
+    border-radius: var(--btn-border-radius);
+    color: var(--white-color);
+    cursor: pointer;
+    transition: var(--main-transition);
+}
+.btn:hover {
+    background-color: var(--main-color);
+}
